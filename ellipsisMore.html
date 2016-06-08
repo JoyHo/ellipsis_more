@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>多文本截断显示更多</title>
+    <style type="text/css">
+    html,body,p,div{
+    	margin:0;
+    	padding:0;
+    }
+    .text{
+    	position:relative;
+    	padding:0 10px;/* 上下不能有padding */
+    	font-size: 14px;
+    	line-height: 18px;
+    	color:#333;
+    	background:#fff;
+    	max-height:198px;
+    	overflow: hidden;
+    }
+    .more{
+    	position: absolute;
+    	top:0;
+    	left:10px;
+    	z-index:10;
+    	width:100%;
+    }
+    .more span{
+    	position: absolute;
+    	top:180px;/* 10行截断，这里就是10*18(行高)+18 */
+    	left:0;
+    	width:100%;
+    	height:18px;
+    	color:#3696f1;
+    	text-decoration: underline;
+    	line-height: 18px;
+    	background:#fff;
+    }
+    </style>
+</head>
+<body>
+<div class="text">
+<div class="more"><span>More</span></div>
+Ek Aadmi Office Ke Baad Apni Patni Ko Bina Bataye Ek Party Mein Chala Gaya.<br>Patni Poore Gusse Se Apne Baccho Ko Kehti Hai: “Agar Tumhare Daddy Aaye To Tumne Darwaja Nahi Kholna.”<br>Raat Ko 12 Baje Ke Baad Aadmi Aaya Aur Door Bell Bajayi.<br>Patni Ki Andar Se Awaaz Aayi: “Jaao Wahin Jahan Se Aaye Ho.”<br>Aadmi Ne Bahar Se Awaaz Lagayi: “Main Ghar Par Sone Ke Liye Nahi Aaya, Wo Party Mein Bohat Saari Ladkiyan Hain Isliye Bas Mujhe Mere Condoms De Do, Drawer Mein Pade Hain.<br>Patni Ne Darwaja Khola Aur Pati Ko Andar Kheench Liya.<br>Patni: “Tum Kahin Nahi Jaa Rahe, Yahin Rahoge Aur Main Tumhe Abhi Sota Hua Dekhna Chahti Hun.”
+Ek Aadmi Office Ke Baad Apni Patni Ko Bina Bataye Ek Party Mein Chala Gaya.<br>Patni Poore Gusse Se Apne Baccho Ko Kehti Hai: “Agar Tumhare Daddy Aaye To Tumne Darwaja Nahi Kholna.”<br>Raat Ko 12 Baje Ke Baad Aadmi Aaya Aur Door Bell Bajayi.<br>Patni Ki Andar Se Awaaz Aayi: “Jaao Wahin Jahan Se Aaye Ho.”<br>Aadmi Ne Bahar Se Awaaz Lagayi: “Main Ghar Par Sone Ke Liye Nahi Aaya, Wo Party Mein Bohat Saari Ladkiyan Hain Isliye Bas Mujhe Mere Condoms De Do, Drawer Mein Pade Hain.<br>Patni Ne Darwaja Khola Aur Pati Ko Andar Kheench Liya.<br>Patni: “Tum Kahin Nahi Jaa Rahe, Yahin Rahoge Aur Main Tumhe Abhi Sota Hua Dekhna Chahti Hun.”
+Ek Aadmi Office Ke Baad Apni Patni Ko Bina Bataye Ek Party Mein Chala Gaya.<br>Patni Poore Gusse Se Apne Baccho Ko Kehti Hai: “Agar Tumhare Daddy Aaye To Tumne Darwaja Nahi Kholna.”<br>Raat Ko 12 Baje Ke Baad Aadmi Aaya Aur Door Bell Bajayi.<br>Patni Ki Andar Se Awaaz Aayi: “Jaao Wahin Jahan Se Aaye Ho.”<br>Aadmi Ne Bahar Se Awaaz Lagayi: “Main Ghar Par Sone Ke Liye Nahi Aaya, Wo Party Mein Bohat Saari Ladkiyan Hain Isliye Bas Mujhe Mere Condoms De Do, Drawer Mein Pade Hain.<br>Patni Ne Darwaja Khola Aur Pati Ko Andar Kheench Liya.<br>Patni: “Tum Kahin Nahi Jaa Rahe, Yahin Rahoge Aur Main Tumhe Abhi Sota Hua Dekhna Chahti Hun.”
+</div>
+</body>
+</html>
